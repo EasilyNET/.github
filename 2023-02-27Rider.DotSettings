@@ -13,7 +13,8 @@
 	<s:Boolean x:Key="/Default/CodeStyle/CodeCleanup/SaveAfterCleanup/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/CodeStyle/CodeCleanup/SilentCleanupProfile/@EntryValue">Built-in: Full Cleanup</s:String>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CommonFormatter/SHOW_AUTODETECT_CONFIGURE_FORMATTING_TIP/@EntryValue">False</s:Boolean>
-	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/ACCESSOR_OWNER_BODY/@EntryValue">AccessorsWithExpressionBody</s:String>
+	
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/APPLY_ON_COMPLETION/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/BRACES_REDUNDANT/@EntryValue">False</s:Boolean>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/FORCE_ATTRIBUTE_STYLE/@EntryValue">Join</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/LOCAL_FUNCTION_BODY/@EntryValue">ExpressionBody</s:String>
@@ -22,15 +23,23 @@
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/OBJECT_CREATION_WHEN_TYPE_NOT_EVIDENT/@EntryValue">TargetTyped</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/PARENTHESES_REDUNDANCY_STYLE/@EntryValue">Remove</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/ThisQualifier/INSTANCE_MEMBERS_QUALIFY_DECLARED_IN/@EntryValue">0</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/ALIGNMENT_TAB_FILL_STYLE/@EntryValue">OPTIMAL_FILL</s:String>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/ALIGN_LINQ_QUERY/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/ALIGN_MULTILINE_BINARY_EXPRESSIONS_CHAIN/@EntryValue">False</s:Boolean>
+	
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/ALIGN_MULTILINE_CALLS_CHAIN/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/ALIGN_MULTILINE_EXPRESSION/@EntryValue">True</s:Boolean>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_AFTER_BLOCK_STATEMENTS/@EntryValue">0</s:Int64>
 	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_AROUND_SINGLE_LINE_AUTO_PROPERTY/@EntryValue">1</s:Int64>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/EMPTY_BLOCK_STYLE/@EntryValue">TOGETHER_SAME_LINE</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INT_ALIGN_COMMENTS/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INT_ALIGN_SWITCH_EXPRESSIONS/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INT_ALIGN_SWITCH_SECTIONS/@EntryValue">True</s:Boolean>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_BLANK_LINES_IN_CODE/@EntryValue">0</s:Int64>
 	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_BLANK_LINES_IN_DECLARATIONS/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_EXISTING_EXPR_MEMBER_ARRANGEMENT/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_EXISTING_INVOCATION_PARENS_ARRANGEMENT/@EntryValue">False</s:Boolean>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/NESTED_TERNARY_STYLE/@EntryValue">EXPANDED</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/OUTDENT_STATEMENT_LABELS/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_ACCESSORHOLDER_ATTRIBUTE_ON_SAME_LINE_EX/@EntryValue">NEVER</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_EXPR_PROPERTY_ON_SINGLE_LINE/@EntryValue">ALWAYS</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_FIELD_ATTRIBUTE_ON_SAME_LINE_EX/@EntryValue">NEVER</s:String>
@@ -38,6 +47,7 @@
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SIMPLE_EMBEDDED_STATEMENT_STYLE/@EntryValue">LINE_BREAK</s:String>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_AFTER_TYPECAST_PARENTHESES/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BETWEEN_ATTRIBUTE_SECTIONS/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/STICK_COMMENT/@EntryValue">False</s:Boolean>
 	
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_CHAINED_BINARY_EXPRESSIONS/@EntryValue">CHOP_IF_LONG</s:String>
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_FOR_STMT_HEADER_STYLE/@EntryValue">WRAP_IF_LONG</s:String>
@@ -61,6 +71,7 @@
 	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/XmlFormatter/WRAP_LIMIT/@EntryValue">300</s:Int64>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/XmlFormatter/WrapInsideText/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/XmlFormatter/WRAP_LINES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CSharpUsing/SortUsingsWithSystemFirst/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/CSharpVarKeywordUsage/UseRoslynLogicForEvidentTypes/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeStyle/Generate/=Implementations/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/CodeStyle/Generate/=Implementations/Options/=Async/@EntryIndexedValue">False</s:String>
