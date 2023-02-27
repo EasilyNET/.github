@@ -9,4 +9,4 @@
  
  - 使用VS的话,一般使用默认设置即可.或者使用[我的配置](../Exported-2023-02-27.vssettings).
  - 若是使用Rider推荐导入[我的配置](../2023-02-27Rider.DotSettings).
- 
+ - 若是使用Reshaper,[推荐配置](../2023-02-27ReSharper.DotSettings).
