@@ -2,12 +2,6 @@
 
 ### 开发工具
 
- - 1.我们推荐使用Visual Studio最新版本.
+ - 1.Visual Studio 2022(首选推荐).
  - 2.Rider.
- 
- ### 代码样式
- 
- - 使用VS的话,一般使用默认设置即可.或者使用[我的配置](../Exported.vssettings).
- - 若是使用Rider推荐导入[我的配置](../Rider.DotSettings).
- - 若是使用Rider设置推荐导入,[推荐配置](../rider.settings.zip).
- - 若是使用Reshaper,[推荐配置](../ReSharper.DotSettings).
+ - 3.Visual Studio Code.
